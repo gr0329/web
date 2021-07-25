@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ul li{
+    list-style: none;
+}
+
+h3{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 400px;
+    /* height: 500px; */
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    
+    
+    
+    
+}
+.top{
+    height: 50px;
+    background: -webkit-linear-gradient(left,pink,purple);
+    line-height:58px;
+    margin-top: 0;
+    padding: 0 20px;
+
+}
+.top span{
+    float: right;
+    margin-top: 18px;
+}
+.main{
+    padding: 5px;
+    position: relative;
+}
+
+.main ul li{
+    margin: 20px 0;
+}
+.main ul li img{
+   height: 40px;
+}
+.right{
+    display: block;
+    margin-top: -40px;
+    margin-left: 348px;
+}
+.main ul li .p-left{
+    position: relative;
+    margin: -40px 0 10px 42px;
+    border:1px solid #999;
+    border-radius: 5px;
+    max-width: 150px;
+    background-color: pink;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px;
+}
+.main li .p-left:before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 5px;
+    left: -10px;
+    border-top: 5px solid transparent;
+    border-right: 10px solid pink;
+    border-bottom: 5px solid transparent;
+}
+
+.main ul li .p-right{
+    position: relative;
+    margin: 0;
+    margin-left:188px;
+    border:1px solid #999;
+    border-radius: 5px;
+    max-width: 150px;
+    background-color: skyblue;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px;
+}
+.main li .p-right::after {
+
+    content: '';
+
+    position: absolute;
+
+    width: 0px;
+
+    height: 0px;
+
+    top: 5px;
+
+    left: 148px;
+    border-top: 5px solid transparent;
+    border-left: 10px solid skyblue;
+    border-bottom: 5px solid transparent;
+}
+
+.edit{
+    /* background-color: #ddd; */
+    border-top: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.edit img{
+    height: 40px;
+}
+.edit .say{
+
+    display: inline-block;
+    width: 250px;
+    margin-left: 15px;
+
+}
+.edit .btn{
+    margin-left: 15px;
+}
+
